@@ -1,0 +1,12 @@
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\bin\Debug\net9.0\SafeVault.deps.json
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\bin\Debug\net9.0\SafeVault.dll
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\bin\Debug\net9.0\SafeVault.pdb
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\SafeVault.csproj.AssemblyReference.cache
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\SafeVault.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\SafeVault.AssemblyInfoInputs.cache
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\SafeVault.AssemblyInfo.cs
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\SafeVault.csproj.CoreCompileInputs.cache
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\SafeVault.dll
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\refint\SafeVault.dll
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\SafeVault.pdb
+C:\Users\merve\OneDrive\Masaüstü\CourseraCSharp\Section5\SafeVault\obj\Debug\net9.0\ref\SafeVault.dll

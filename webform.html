@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeVault Registration</title>
+    <script>
+        function sanitizeInput(value) {
+            const temp = document.createElement("div");
+            temp.textContent = value.trim();
+            return temp.innerHTML
+                .replace(/<\s*script[^>]*>/gi, "")
+                .replace(/<\s*\/\s*script\s*>/gi, "");
+        }
+
+        function onSubmit(event) {
+            const usernameField = document.getElementById("username");
+            const emailField = document.getElementById("email");
+
+            usernameField.value = sanitizeInput(usernameField.value);
+            emailField.value = sanitizeInput(emailField.value.toLowerCase());
+
+            const usernamePattern = /^[A-Za-z0-9_.-]{3,30}$/;
+            if (!usernamePattern.test(usernameField.value)) {
+                event.preventDefault();
+                alert("Username must be 3-30 characters and can include letters, numbers, dots, underscores, and hyphens.");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="/submit" method="post" onsubmit="onSubmit(event)" novalidate>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required pattern="^[A-Za-z0-9_.-]{3,30}$" autocomplete="off">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required autocomplete="off">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
